@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/project_2_349/static/css/main.fa0f899f.css",
-    "main.js": "/project_2_349/static/js/main.fc5b2c51.js",
+    "main.css": "/project_2_349/static/css/main.a56bd699.css",
+    "main.js": "/project_2_349/static/js/main.428490d0.js",
     "static/media/Spaceship.jpg": "/project_2_349/static/media/Spaceship.f0da6d5c08d5b3667fd1.jpg",
     "static/media/djangoPythonLogo.png": "/project_2_349/static/media/djangoPythonLogo.1dd4a6731ff82c516038.png",
     "index.html": "/project_2_349/index.html",
-    "main.fa0f899f.css.map": "/project_2_349/static/css/main.fa0f899f.css.map",
-    "main.fc5b2c51.js.map": "/project_2_349/static/js/main.fc5b2c51.js.map"
+    "main.a56bd699.css.map": "/project_2_349/static/css/main.a56bd699.css.map",
+    "main.428490d0.js.map": "/project_2_349/static/js/main.428490d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa0f899f.css",
-    "static/js/main.fc5b2c51.js"
+    "static/css/main.a56bd699.css",
+    "static/js/main.428490d0.js"
   ]
 }
