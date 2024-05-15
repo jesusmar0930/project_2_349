@@ -1,8 +1,8 @@
 import React from 'react';
-import './Skills.css';
+import './Skills.css'; // Import styling for the skills section
 
 const Skills = () => {
-  const skills = [
+  const skills = [ // Array of skills data
     { name: 'JavaScript', icon: 'fab fa-js' },
     { name: 'React', icon: 'fab fa-react' },
     { name: 'Node.js', icon: 'fab fa-node' },
@@ -11,15 +11,15 @@ const Skills = () => {
   ];
 
   return (
-    <section className="skills">
+    <section className="skills"> 
       <h2>Skills and Expertise</h2>
       <div className="skill-list">
-        {skills.map((skill, index) => (
-          <div key={index} className="skill-item">
-            <div className="skill-icon">
-              <i className={skill.icon}></i>
+        {skills.map((skill, index) => ( // Map skills data to JSX elements
+          <div key={index} className="skill-item"> 
+            <div className="skill-icon"> {/* Display skill icon */}
+              <i className={skill.icon}></i> 
             </div>
-            <div className="skill-name">{skill.name}</div>
+            <div className="skill-name">{skill.name}</div> {/* Display skill name */}
           </div>
         ))}
       </div>
@@ -27,4 +27,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default Skills; 

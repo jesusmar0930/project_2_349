@@ -1,14 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import './Navigation.css';
+import { Link } from 'react-router-dom'; // Import Link for navigation
+import './Navigation.css'; // Import styles for the navigation bar
 
 const Navigation = () => {
   return (
-    <nav className="navigation">
-      <div className="logo">
-        <Link to="/">Jesus M</Link>
+    <nav className="navigation"> 
+      <div className="logo"> 
+        <Link to="/">Jesus M</Link> {/* Logo/Name linking to home page */}
       </div>
-      <ul>
+
+      <ul> {/* Navigation menu links */}
         <li>
           <Link to="/">Home</Link>
         </li>
@@ -26,4 +27,4 @@ const Navigation = () => {
   );
 };
 
-export default Navigation;
+export default Navigation; 
