@@ -9,7 +9,8 @@
     "formik": "^2.4.6",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-scripts": "5.0.1",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "homepage": "https://jesusmar0930.github.io/project_2_349",
